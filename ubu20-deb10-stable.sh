@@ -693,16 +693,7 @@ echo -n '.'
 wget -q -O /usr/local/ddos/ddos.sh http://www.inetbase.com/scripts/ddos/ddos.sh
 chmod 0755 /usr/local/ddos/ddos.sh
 cp -s /usr/local/ddos/ddos.sh /usr/local/sbin/ddos
-echo '...done'
-
-echo; echo -n 'Creating cron to run script every minute.....(Default setting)'
-/usr/local/ddos/ddos.sh --cron > /dev/null 2>&1
-echo '.....done'
-echo; echo 'Installation has completed.'
-echo 'Config file is at /usr/local/ddos/ddos.conf'
-echo 'Please send in your comments and/or suggestions to zaf@vsnl.com'
-echo
-cat /usr/local/ddos/LICENSE | less
+echo ''...done''
 
 clear
 # banner
